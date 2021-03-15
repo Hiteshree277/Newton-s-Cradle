@@ -17,7 +17,7 @@ class Bob{
         var pos=this.body.position;
         push();
         translate(pos.x,pos.y);
-        fill(255);
+        fill("pink");
         stroke("lightblue");
         //ellipseMode(RADIUS);
         ellipse(0,0,this.r*2,this.r*2);
